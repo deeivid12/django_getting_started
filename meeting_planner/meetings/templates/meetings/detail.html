@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block title %}Meeting details{% endblock %}
+
+{% block content %}
+	<h2>Meeting details:</h2>
+	<h3>{{meeting.title}}</h1>
+	<p>Here you'll have information about the meeting</p>
+	<a href="{% url 'home'%}">Home</a>
+{% endblock %}
